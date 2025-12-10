@@ -6,6 +6,10 @@ import RegistrationForm from "@/components/RegistrationForm"
 import Footer from "@/components/Footer"
 import { getDictionary } from "@/dictionaries/get-dictionary"
 
+export async function generateStaticParams() {
+	return [{ lang: "en" }, { lang: "es" }, { lang: "it" }, { lang: "de" }, { lang: "lv" }]
+}
+
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params
 	const dict = await getDictionary(lang)
