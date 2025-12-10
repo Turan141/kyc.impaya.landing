@@ -1,0 +1,144 @@
+{
+	"navbar": {
+		"features": "Características",
+		"technology": "Tecnología",
+		"contact": "Contacto",
+		"getStarted": "Empezar"
+	},
+	"hero": {
+		"newGeneration": "KYC de Nueva Generación",
+		"title": "Verificación de Identidad",
+		"titleHighlight": "Reinventada con IA",
+		"description": "Incorpore usuarios sin problemas con seguridad de grado bancario. Nuestra tecnología de Detección de Vida 3D y OCR Inteligente garantiza el cumplimiento en segundos, no días.",
+		"startVerification": "Iniciar Verificación",
+		"howItWorks": "Cómo Funciona",
+		"liveness": "Prueba de Vida 3D",
+		"ocr": "OCR Inteligente",
+		"security": "Seguridad Bancaria",
+		"card": {
+			"livenessDetected": "Vida Detectada",
+			"documentScan": "Escaneo de Documento",
+			"verified": "Verificado",
+			"faceMatch": "Coincidencia Facial",
+			"processing": "Procesando..."
+		}
+	},
+	"features": {
+		"capabilities": "Capacidades",
+		"title": "Tecnología KYC Avanzada",
+		"description": "Nuestra plataforma combina IA de vanguardia con robustos controles de cumplimiento para ofrecer una experiencia de verificación perfecta.",
+		"items": {
+			"liveness": {
+				"name": "Detección de Vida Impulsada por IA",
+				"desc": "Nuestra avanzada tecnología FaceMesh 3D asegura que el usuario esté físicamente presente, previniendo ataques de suplantación con análisis de movimiento en tiempo real."
+			},
+			"ocr": {
+				"name": "OCR de Documentos Inteligente",
+				"desc": "Reconozca y extraiga datos instantáneamente de Pasaportes, Tarjetas de Identidad y Permisos de Residencia. Nuestro sistema detecta automáticamente los límites y la calidad del documento."
+			},
+			"address": {
+				"name": "Verificación de Prueba de Dirección",
+				"desc": "La verificación automatizada de facturas de servicios públicos garantiza el cumplimiento de los requisitos de residencia. Suba o capture documentos directamente."
+			},
+			"global": {
+				"name": "Cobertura Global",
+				"desc": "Soporte para documentos de múltiples países, incluidos Azerbaiyán, Letonia, Ucrania y más. Verifique usuarios en todo el mundo sin problemas."
+			},
+			"security": {
+				"name": "Seguridad de Grado Bancario",
+				"desc": "Todos los datos se procesan de forma segura con tokens basados en sesiones. Nos adherimos a estrictos estándares de protección de datos para mantener segura la información del usuario."
+			},
+			"feedback": {
+				"name": "Comentarios en Tiempo Real",
+				"desc": "Los usuarios reciben orientación instantánea durante el proceso (por ejemplo, \"Acérquese\", \"Manténgase quieto\"), asegurando altas tasas de éxito y una experiencia fluida."
+			}
+		}
+	},
+	"techSpecs": {
+		"technology": "Pila Tecnológica",
+		"title": "Construido para Velocidad y Seguridad",
+		"description": "Nuestra infraestructura está diseñada para manejar altos volúmenes de verificaciones con latencia mínima, asegurando que sus usuarios sean verificados en segundos, no días.",
+		"items": {
+			"tensorflow": {
+				"name": "TensorFlow.js",
+				"desc": "Procesamiento de IA del lado del cliente para comentarios inmediatos y carga reducida del servidor. Los modelos FaceMesh se ejecutan directamente en el navegador."
+			},
+			"secureSessions": {
+				"name": "Sesiones Seguras",
+				"desc": "Cada verificación comienza con un token de sesión único y limitado en el tiempo. Los datos se cifran en tránsito y en reposo."
+			},
+			"mobile": {
+				"name": "Optimizado para Móviles",
+				"desc": "Diseño totalmente receptivo que funciona perfectamente en dispositivos móviles, utilizando capacidades nativas de la cámara."
+			},
+			"instant": {
+				"name": "Resultados Instantáneos",
+				"desc": "Obtenga resultados de verificación a través de devoluciones de llamada API inmediatamente después de que el usuario complete el proceso."
+			},
+			"api": {
+				"name": "API RESTful",
+				"desc": "API REST fácil de integrar con documentación completa y SDKs para los principales lenguajes."
+			},
+			"developer": {
+				"name": "Amigable para Desarrolladores",
+				"desc": "Construido por desarrolladores para desarrolladores. Código limpio, interfaces tipadas y mensajes de error detallados."
+			},
+			"retention": {
+				"name": "Retención de Datos",
+				"desc": "Políticas de retención de datos configurables para cumplir con sus requisitos específicos de cumplimiento y privacidad."
+			},
+			"cloud": {
+				"name": "Nativo de la Nube",
+				"desc": "Infraestructura escalable alojada en proveedores de nube seguros con alta disponibilidad y redundancia."
+			}
+		}
+	},
+	"registration": {
+		"success": {
+			"title": "¡Registro Iniciado!",
+			"description": "Su sesión segura ha sido creada exitosamente.",
+			"tokenLabel": "Token de Sesión",
+			"note": "En un entorno de producción, sería redirigido automáticamente al flujo de verificación.",
+			"button": "Iniciar otro registro"
+		},
+		"form": {
+			"title": "¿Listo para empezar?",
+			"description": "Únase a miles de empresas que confían en nuestra plataforma para sus necesidades de verificación de identidad. Integración simple, resultados potentes.",
+			"list": [
+				"Acceso instantáneo a la API",
+				"Entorno sandbox incluido",
+				"Soporte técnico 24/7",
+				"Cumple con GDPR y CCPA"
+			],
+			"createAccount": "Cree su cuenta",
+			"trial": "Comience su prueba gratuita hoy.",
+			"emailLabel": "Correo de Trabajo",
+			"emailPlaceholder": "tu@empresa.com",
+			"terms": "Acepto los {terms} y la {privacy}",
+			"termsLink": "Términos",
+			"privacyLink": "Política de Privacidad",
+			"errorTerms": "Debe aceptar los términos y condiciones.",
+			"errorGeneric": "Algo salió mal",
+			"buttonProcessing": "Procesando...",
+			"buttonStart": "Empezar"
+		}
+	},
+	"footer": {
+		"tagline": "Plataforma de verificación de identidad de próxima generación para empresas modernas. Segura, rápida y compatible.",
+		"solutions": "Soluciones",
+		"support": "Soporte",
+		"legal": "Legal",
+		"rights": "Impaya KYC. Todos los derechos reservados.",
+		"links": {
+			"identity": "Verificación de Identidad",
+			"aml": "Detección AML",
+			"ocr": "OCR de Documentos",
+			"docs": "Documentación",
+			"api": "Referencia de API",
+			"status": "Estado del Sistema",
+			"privacy": "Política de Privacidad",
+			"terms": "Términos de Servicio",
+			"cookie": "Política de Cookies"
+		}
+	}
+}

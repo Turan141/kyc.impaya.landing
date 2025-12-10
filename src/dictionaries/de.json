@@ -1,0 +1,144 @@
+{
+	"navbar": {
+		"features": "Funktionen",
+		"technology": "Technologie",
+		"contact": "Kontakt",
+		"getStarted": "Loslegen"
+	},
+	"hero": {
+		"newGeneration": "KYC der nächsten Generation",
+		"title": "Identitätsprüfung",
+		"titleHighlight": "Neu gedacht mit KI",
+		"description": "Nahtloses Onboarding von Benutzern mit Sicherheit auf Bankenniveau. Unsere 3D-Lebenderkennung und Smart OCR-Technologie gewährleisten Compliance in Sekunden, nicht Tagen.",
+		"startVerification": "Verifizierung starten",
+		"howItWorks": "Wie es funktioniert",
+		"liveness": "3D-Lebenderkennung",
+		"ocr": "Smart OCR",
+		"security": "Sicherheit auf Bankenniveau",
+		"card": {
+			"livenessDetected": "Lebendigkeit erkannt",
+			"documentScan": "Dokumentenscan",
+			"verified": "Verifiziert",
+			"faceMatch": "Gesichtserkennung",
+			"processing": "Verarbeitung..."
+		}
+	},
+	"features": {
+		"capabilities": "Fähigkeiten",
+		"title": "Fortschrittliche KYC-Technologie",
+		"description": "Unsere Plattform kombiniert modernste KI mit robusten Compliance-Prüfungen, um ein nahtloses Verifizierungserlebnis zu bieten.",
+		"items": {
+			"liveness": {
+				"name": "KI-gestützte Lebenderkennung",
+				"desc": "Unsere fortschrittliche 3D-FaceMesh-Technologie stellt sicher, dass der Benutzer physisch anwesend ist, und verhindert Spoofing-Angriffe durch Echtzeit-Bewegungsanalyse."
+			},
+			"ocr": {
+				"name": "Intelligente Dokumenten-OCR",
+				"desc": "Erkennen und extrahieren Sie Daten sofort aus Reisepässen, Personalausweisen und Aufenthaltstiteln. Unser System erkennt automatisch Dokumentengrenzen und Qualität."
+			},
+			"address": {
+				"name": "Adressnachweis-Verifizierung",
+				"desc": "Die automatisierte Verifizierung von Versorgungsrechnungen gewährleistet die Einhaltung der Wohnsitzanforderungen. Dokumente direkt hochladen oder erfassen."
+			},
+			"global": {
+				"name": "Globale Abdeckung",
+				"desc": "Unterstützung für Dokumente aus mehreren Ländern, einschließlich Aserbaidschan, Lettland, Ukraine und mehr. Verifizieren Sie Benutzer weltweit nahtlos."
+			},
+			"security": {
+				"name": "Sicherheit auf Bankenniveau",
+				"desc": "Alle Daten werden sicher mit sitzungsbasierten Token verarbeitet. Wir halten uns an strenge Datenschutzstandards, um Benutzerinformationen sicher zu halten."
+			},
+			"feedback": {
+				"name": "Echtzeit-Feedback",
+				"desc": "Benutzer erhalten während des Prozesses sofortige Anweisungen (z. B. \"Näher kommen\", \"Stillhalten\"), was hohe Erfolgsquoten und ein reibungsloses Erlebnis gewährleistet."
+			}
+		}
+	},
+	"techSpecs": {
+		"technology": "Technologie-Stack",
+		"title": "Gebaut für Geschwindigkeit und Sicherheit",
+		"description": "Unsere Infrastruktur ist darauf ausgelegt, hohe Verifizierungsvolumina mit minimaler Latenz zu bewältigen, sodass Ihre Benutzer in Sekunden, nicht Tagen, verifiziert werden.",
+		"items": {
+			"tensorflow": {
+				"name": "TensorFlow.js",
+				"desc": "Clientseitige KI-Verarbeitung für sofortiges Feedback und reduzierte Serverlast. FaceMesh-Modelle laufen direkt im Browser."
+			},
+			"secureSessions": {
+				"name": "Sichere Sitzungen",
+				"desc": "Jede Verifizierung beginnt mit einem eindeutigen, zeitlich begrenzten Sitzungstoken. Daten werden bei der Übertragung und im Ruhezustand verschlüsselt."
+			},
+			"mobile": {
+				"name": "Für Mobilgeräte optimiert",
+				"desc": "Vollständig responsives Design, das perfekt auf Mobilgeräten funktioniert und native Kamerafunktionen nutzt."
+			},
+			"instant": {
+				"name": "Sofortige Ergebnisse",
+				"desc": "Erhalten Sie Verifizierungsergebnisse über API-Callbacks sofort, nachdem der Benutzer den Prozess abgeschlossen hat."
+			},
+			"api": {
+				"name": "RESTful API",
+				"desc": "Einfach zu integrierende REST-API mit umfassender Dokumentation und SDKs für wichtige Sprachen."
+			},
+			"developer": {
+				"name": "Entwicklerfreundlich",
+				"desc": "Von Entwicklern für Entwickler gebaut. Sauberer Code, typisierte Schnittstellen und detaillierte Fehlermeldungen."
+			},
+			"retention": {
+				"name": "Datenaufbewahrung",
+				"desc": "Konfigurierbare Datenaufbewahrungsrichtlinien, um Ihre spezifischen Compliance- und Datenschutzanforderungen zu erfüllen."
+			},
+			"cloud": {
+				"name": "Cloud Native",
+				"desc": "Skalierbare Infrastruktur, die auf sicheren Cloud-Anbietern mit hoher Verfügbarkeit und Redundanz gehostet wird."
+			}
+		}
+	},
+	"registration": {
+		"success": {
+			"title": "Registrierung gestartet!",
+			"description": "Ihre sichere Sitzung wurde erfolgreich erstellt.",
+			"tokenLabel": "Sitzungstoken",
+			"note": "In einer Produktionsumgebung würden Sie automatisch zum Verifizierungsablauf weitergeleitet.",
+			"button": "Eine weitere Registrierung starten"
+		},
+		"form": {
+			"title": "Bereit loszulegen?",
+			"description": "Schließen Sie sich Tausenden von Unternehmen an, die unserer Plattform für ihre Identitätsprüfungsbedürfnisse vertrauen. Einfache Integration, leistungsstarke Ergebnisse.",
+			"list": [
+				"Sofortiger API-Zugriff",
+				"Sandbox-Umgebung inklusive",
+				"24/7 Technischer Support",
+				"DSGVO & CCPA konform"
+			],
+			"createAccount": "Konto erstellen",
+			"trial": "Starten Sie Ihre kostenlose Testversion heute.",
+			"emailLabel": "Geschäftliche E-Mail",
+			"emailPlaceholder": "sie@unternehmen.com",
+			"terms": "Ich stimme den {terms} und der {privacy} zu",
+			"termsLink": "AGB",
+			"privacyLink": "Datenschutzrichtlinie",
+			"errorTerms": "Sie müssen die Geschäftsbedingungen akzeptieren.",
+			"errorGeneric": "Etwas ist schief gelaufen",
+			"buttonProcessing": "Verarbeitung...",
+			"buttonStart": "Loslegen"
+		}
+	},
+	"footer": {
+		"tagline": "Identitätsprüfungsplattform der nächsten Generation für moderne Unternehmen. Sicher, schnell und konform.",
+		"solutions": "Lösungen",
+		"support": "Support",
+		"legal": "Rechtliches",
+		"rights": "Impaya KYC. Alle Rechte vorbehalten.",
+		"links": {
+			"identity": "Identitätsprüfung",
+			"aml": "AML-Screening",
+			"ocr": "Dokumenten-OCR",
+			"docs": "Dokumentation",
+			"api": "API-Referenz",
+			"status": "Systemstatus",
+			"privacy": "Datenschutzrichtlinie",
+			"terms": "Nutzungsbedingungen",
+			"cookie": "Cookie-Richtlinie"
+		}
+	}
+}

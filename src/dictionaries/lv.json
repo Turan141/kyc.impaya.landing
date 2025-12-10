@@ -1,0 +1,144 @@
+{
+	"navbar": {
+		"features": "Funkcijas",
+		"technology": "Tehnoloģija",
+		"contact": "Kontakti",
+		"getStarted": "Sākt"
+	},
+	"hero": {
+		"newGeneration": "Jaunās paaudzes KYC",
+		"title": "Identitātes verifikācija",
+		"titleHighlight": "Pārveidota ar AI",
+		"description": "Nevainojama lietotāju uzņemšana ar banku līmeņa drošību. Mūsu 3D dzīvīguma noteikšanas un viedā OCR tehnoloģija nodrošina atbilstību sekundēs, nevis dienās.",
+		"startVerification": "Sākt verifikāciju",
+		"howItWorks": "Kā tas darbojas",
+		"liveness": "3D dzīvīgums",
+		"ocr": "Viedais OCR",
+		"security": "Banku līmeņa drošība",
+		"card": {
+			"livenessDetected": "Dzīvīgums noteikts",
+			"documentScan": "Dokumenta skenēšana",
+			"verified": "Verificēts",
+			"faceMatch": "Sejas atbilstība",
+			"processing": "Apstrāde..."
+		}
+	},
+	"features": {
+		"capabilities": "Iespējas",
+		"title": "Uzlabota KYC tehnoloģija",
+		"description": "Mūsu platforma apvieno jaunāko AI ar spēcīgām atbilstības pārbaudēm, lai nodrošinātu nevainojamu verifikācijas pieredzi.",
+		"items": {
+			"liveness": {
+				"name": "AI darbināta dzīvīguma noteikšana",
+				"desc": "Mūsu uzlabotā 3D FaceMesh tehnoloģija nodrošina, ka lietotājs ir fiziski klāt, novēršot viltošanas uzbrukumus ar reāllaika kustību analīzi."
+			},
+			"ocr": {
+				"name": "Viedā dokumentu OCR",
+				"desc": "Nekavējoties atpazīstiet un izvelciet datus no pasēm, ID kartēm un uzturēšanās atļaujām. Mūsu sistēma automātiski nosaka dokumentu robežas un kvalitāti."
+			},
+			"address": {
+				"name": "Adreses pierādījuma verifikācija",
+				"desc": "Automatizēta komunālo pakalpojumu rēķinu verifikācija nodrošina atbilstību dzīvesvietas prasībām. Augšupielādējiet vai uzņemiet dokumentus tieši."
+			},
+			"global": {
+				"name": "Globāls pārklājums",
+				"desc": "Atbalsts dokumentiem no vairākām valstīm, tostarp Azerbaidžānas, Latvijas, Ukrainas un citām. Nevainojami verificējiet lietotājus visā pasaulē."
+			},
+			"security": {
+				"name": "Banku līmeņa drošība",
+				"desc": "Visi dati tiek apstrādāti droši ar sesiju marķieriem. Mēs ievērojam stingrus datu aizsardzības standartus, lai lietotāju informācija būtu drošībā."
+			},
+			"feedback": {
+				"name": "Reāllaika atsauksmes",
+				"desc": "Lietotāji procesa laikā saņem tūlītējus norādījumus (piemēram, \"Pietuvoties\", \"Nekustēties\"), nodrošinot augstus panākumu rādītājus un vienmērīgu pieredzi."
+			}
+		}
+	},
+	"techSpecs": {
+		"technology": "Tehnoloģiju steks",
+		"title": "Radīts ātrumam un drošībai",
+		"description": "Mūsu infrastruktūra ir izstrādāta, lai apstrādātu lielus verifikācijas apjomus ar minimālu aizkavi, nodrošinot, ka jūsu lietotāji tiek verificēti sekundēs, nevis dienās.",
+		"items": {
+			"tensorflow": {
+				"name": "TensorFlow.js",
+				"desc": "Klienta puses AI apstrāde tūlītējai atgriezeniskajai saitei un samazinātai servera slodzei. FaceMesh modeļi darbojas tieši pārlūkprogrammā."
+			},
+			"secureSessions": {
+				"name": "Drošas sesijas",
+				"desc": "Katra verifikācija sākas ar unikālu, laika ierobežotu sesijas marķieri. Dati tiek šifrēti pārsūtīšanas un dīkstāves laikā."
+			},
+			"mobile": {
+				"name": "Optimizēts mobilajām ierīcēm",
+				"desc": "Pilnībā atsaucīgs dizains, kas lieliski darbojas mobilajās ierīcēs, izmantojot vietējās kameras iespējas."
+			},
+			"instant": {
+				"name": "Tūlītēji rezultāti",
+				"desc": "Saņemiet verifikācijas rezultātus, izmantojot API atzvanīšanu, tūlīt pēc tam, kad lietotājs pabeidz procesu."
+			},
+			"api": {
+				"name": "RESTful API",
+				"desc": "Viegli integrējama REST API ar visaptverošu dokumentāciju un SDK galvenajām valodām."
+			},
+			"developer": {
+				"name": "Izstrādātājiem draudzīgs",
+				"desc": "Izstrādātāju veidots izstrādātājiem. Tīrs kods, tipizētas saskarnes un detalizēti kļūdu ziņojumi."
+			},
+			"retention": {
+				"name": "Datu saglabāšana",
+				"desc": "Konfigurējamas datu saglabāšanas politikas, lai atbilstu jūsu īpašajām atbilstības un privātuma prasībām."
+			},
+			"cloud": {
+				"name": "Mākoņdatošanas",
+				"desc": "Mērogojama infrastruktūra, kas tiek mitināta pie drošiem mākoņpakalpojumu sniedzējiem ar augstu pieejamību un dublēšanu."
+			}
+		}
+	},
+	"registration": {
+		"success": {
+			"title": "Reģistrācija sākta!",
+			"description": "Jūsu drošā sesija ir veiksmīgi izveidota.",
+			"tokenLabel": "Sesijas marķieris",
+			"note": "Ražošanas vidē jūs tiktu automātiski novirzīts uz verifikācijas plūsmu.",
+			"button": "Sākt citu reģistrāciju"
+		},
+		"form": {
+			"title": "Gatavs sākt?",
+			"description": "Pievienojieties tūkstošiem uzņēmumu, kas uzticas mūsu platformai savām identitātes verifikācijas vajadzībām. Vienkārša integrācija, spēcīgi rezultāti.",
+			"list": [
+				"Tūlītēja API piekļuve",
+				"Iekļauta smilškastes vide",
+				"24/7 Tehniskais atbalsts",
+				"GDPR un CCPA atbilstība"
+			],
+			"createAccount": "Izveidot kontu",
+			"trial": "Sāciet savu bezmaksas izmēģinājumu šodien.",
+			"emailLabel": "Darba e-pasts",
+			"emailPlaceholder": "jus@uznemums.com",
+			"terms": "Es piekrītu {terms} un {privacy}",
+			"termsLink": "Noteikumiem",
+			"privacyLink": "Privātuma politikai",
+			"errorTerms": "Jums jāpiekrīt noteikumiem un nosacījumiem.",
+			"errorGeneric": "Kaut kas nogāja greizi",
+			"buttonProcessing": "Apstrāde...",
+			"buttonStart": "Sākt"
+		}
+	},
+	"footer": {
+		"tagline": "Nākamās paaudzes identitātes verifikācijas platforma mūsdienu uzņēmumiem. Droša, ātra un atbilstoša.",
+		"solutions": "Risinājumi",
+		"support": "Atbalsts",
+		"legal": "Juridiskā informācija",
+		"rights": "Impaya KYC. Visas tiesības aizsargātas.",
+		"links": {
+			"identity": "Identitātes verifikācija",
+			"aml": "AML pārbaude",
+			"ocr": "Dokumentu OCR",
+			"docs": "Dokumentācija",
+			"api": "API atsauce",
+			"status": "Sistēmas statuss",
+			"privacy": "Privātuma politika",
+			"terms": "Pakalpojuma noteikumi",
+			"cookie": "Sīkdatņu politika"
+		}
+	}
+}

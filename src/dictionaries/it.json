@@ -1,0 +1,144 @@
+{
+	"navbar": {
+		"features": "Funzionalità",
+		"technology": "Tecnologia",
+		"contact": "Contatti",
+		"getStarted": "Inizia"
+	},
+	"hero": {
+		"newGeneration": "KYC di Nuova Generazione",
+		"title": "Verifica dell'Identità",
+		"titleHighlight": "Reimmaginata con l'IA",
+		"description": "Onboarding degli utenti senza problemi con sicurezza di livello bancario. La nostra tecnologia di Rilevamento Vitalità 3D e Smart OCR garantisce la conformità in secondi, non giorni.",
+		"startVerification": "Avvia Verifica",
+		"howItWorks": "Come Funziona",
+		"liveness": "Vitalità 3D",
+		"ocr": "Smart OCR",
+		"security": "Sicurezza Bancaria",
+		"card": {
+			"livenessDetected": "Vitalità Rilevata",
+			"documentScan": "Scansione Documento",
+			"verified": "Verificato",
+			"faceMatch": "Corrispondenza Facciale",
+			"processing": "Elaborazione..."
+		}
+	},
+	"features": {
+		"capabilities": "Capacità",
+		"title": "Tecnologia KYC Avanzata",
+		"description": "La nostra piattaforma combina IA all'avanguardia con robusti controlli di conformità per offrire un'esperienza di verifica senza interruzioni.",
+		"items": {
+			"liveness": {
+				"name": "Rilevamento Vitalità basato su IA",
+				"desc": "La nostra avanzata tecnologia FaceMesh 3D assicura che l'utente sia fisicamente presente, prevenendo attacchi di spoofing con analisi del movimento in tempo reale."
+			},
+			"ocr": {
+				"name": "OCR Documentale Intelligente",
+				"desc": "Riconosci ed estrai istantaneamente dati da Passaporti, Carte d'Identità e Permessi di Soggiorno. Il nostro sistema rileva automaticamente i confini e la qualità del documento."
+			},
+			"address": {
+				"name": "Verifica Prova di Indirizzo",
+				"desc": "La verifica automatizzata delle bollette garantisce la conformità ai requisiti di residenza. Carica o acquisisci documenti direttamente."
+			},
+			"global": {
+				"name": "Copertura Globale",
+				"desc": "Supporto per documenti da più paesi tra cui Azerbaigian, Lettonia, Ucraina e altri. Verifica gli utenti in tutto il mondo senza problemi."
+			},
+			"security": {
+				"name": "Sicurezza di Livello Bancario",
+				"desc": "Tutti i dati sono elaborati in modo sicuro con token basati su sessione. Aderiamo a rigorosi standard di protezione dei dati per mantenere sicure le informazioni degli utenti."
+			},
+			"feedback": {
+				"name": "Feedback in Tempo Reale",
+				"desc": "Gli utenti ricevono una guida istantanea durante il processo (es. \"Avvicinati\", \"Resta fermo\"), garantendo alti tassi di successo e un'esperienza fluida."
+			}
+		}
+	},
+	"techSpecs": {
+		"technology": "Stack Tecnologico",
+		"title": "Costruito per Velocità e Sicurezza",
+		"description": "La nostra infrastruttura è progettata per gestire alti volumi di verifiche con latenza minima, garantendo che i tuoi utenti siano verificati in secondi, non giorni.",
+		"items": {
+			"tensorflow": {
+				"name": "TensorFlow.js",
+				"desc": "Elaborazione IA lato client per feedback immediato e carico ridotto del server. I modelli FaceMesh vengono eseguiti direttamente nel browser."
+			},
+			"secureSessions": {
+				"name": "Sessioni Sicure",
+				"desc": "Ogni verifica inizia con un token di sessione unico e limitato nel tempo. I dati sono crittografati in transito e a riposo."
+			},
+			"mobile": {
+				"name": "Ottimizzato per Mobile",
+				"desc": "Design completamente reattivo che funziona perfettamente sui dispositivi mobili, utilizzando le capacità native della fotocamera."
+			},
+			"instant": {
+				"name": "Risultati Istantanei",
+				"desc": "Ottieni i risultati della verifica tramite callback API immediatamente dopo che l'utente ha completato il processo."
+			},
+			"api": {
+				"name": "API RESTful",
+				"desc": "API REST facile da integrare con documentazione completa e SDK per i principali linguaggi."
+			},
+			"developer": {
+				"name": "Developer Friendly",
+				"desc": "Costruito da sviluppatori per sviluppatori. Codice pulito, interfacce tipizzate e messaggi di errore dettagliati."
+			},
+			"retention": {
+				"name": "Conservazione Dati",
+				"desc": "Politiche di conservazione dei dati configurabili per soddisfare i tuoi specifici requisiti di conformità e privacy."
+			},
+			"cloud": {
+				"name": "Cloud Native",
+				"desc": "Infrastruttura scalabile ospitata su provider cloud sicuri con alta disponibilità e ridondanza."
+			}
+		}
+	},
+	"registration": {
+		"success": {
+			"title": "Registrazione Iniziata!",
+			"description": "La tua sessione sicura è stata creata con successo.",
+			"tokenLabel": "Token di Sessione",
+			"note": "In un ambiente di produzione, verresti reindirizzato automaticamente al flusso di verifica.",
+			"button": "Avvia un'altra registrazione"
+		},
+		"form": {
+			"title": "Pronto per iniziare?",
+			"description": "Unisciti a migliaia di aziende che si affidano alla nostra piattaforma per le loro esigenze di verifica dell'identità. Integrazione semplice, risultati potenti.",
+			"list": [
+				"Accesso API istantaneo",
+				"Ambiente sandbox incluso",
+				"Supporto tecnico 24/7",
+				"Conforme a GDPR e CCPA"
+			],
+			"createAccount": "Crea il tuo account",
+			"trial": "Inizia la tua prova gratuita oggi.",
+			"emailLabel": "Email Aziendale",
+			"emailPlaceholder": "tu@azienda.com",
+			"terms": "Accetto i {terms} e la {privacy}",
+			"termsLink": "Termini",
+			"privacyLink": "Privacy Policy",
+			"errorTerms": "Devi accettare i termini e le condizioni.",
+			"errorGeneric": "Qualcosa è andato storto",
+			"buttonProcessing": "Elaborazione...",
+			"buttonStart": "Inizia"
+		}
+	},
+	"footer": {
+		"tagline": "Piattaforma di verifica dell'identità di nuova generazione per aziende moderne. Sicura, veloce e conforme.",
+		"solutions": "Soluzioni",
+		"support": "Supporto",
+		"legal": "Legale",
+		"rights": "Impaya KYC. Tutti i diritti riservati.",
+		"links": {
+			"identity": "Verifica Identità",
+			"aml": "Screening AML",
+			"ocr": "OCR Documenti",
+			"docs": "Documentazione",
+			"api": "Riferimento API",
+			"status": "Stato del Sistema",
+			"privacy": "Privacy Policy",
+			"terms": "Termini di Servizio",
+			"cookie": "Cookie Policy"
+		}
+	}
+}
