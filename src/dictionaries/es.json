@@ -20,7 +20,8 @@
 			"documentScan": "Escaneo de Documento",
 			"verified": "Verificado",
 			"faceMatch": "Coincidencia Facial",
-			"processing": "Procesando..."
+			"processing": "Procesando...",
+			"deviceCheck": "Verificación de Dispositivo"
 		}
 	},
 	"features": {
@@ -46,7 +47,7 @@
 			},
 			"security": {
 				"name": "Seguridad de Grado Bancario",
-				"desc": "Todos los datos se procesan de forma segura con tokens basados en sesiones. Nos adherimos a estrictos estándares de protección de datos para mantener segura la información del usuario."
+				"desc": "Seguridad de grado bancario con huella digital avanzada del dispositivo y análisis de sesión para prevenir fraudes."
 			},
 			"feedback": {
 				"name": "Comentarios en Tiempo Real",
@@ -65,7 +66,7 @@
 			},
 			"secureSessions": {
 				"name": "Sesiones Seguras",
-				"desc": "Cada verificación comienza con un token de sesión único y limitado en el tiempo. Los datos se cifran en tránsito y en reposo."
+				"desc": "Cada verificación comienza con un token de sesión único. Incluye inteligencia de dispositivo y huella digital del navegador."
 			},
 			"mobile": {
 				"name": "Optimizado para Móviles",

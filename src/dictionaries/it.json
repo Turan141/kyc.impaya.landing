@@ -20,7 +20,8 @@
 			"documentScan": "Scansione Documento",
 			"verified": "Verificato",
 			"faceMatch": "Corrispondenza Facciale",
-			"processing": "Elaborazione..."
+			"processing": "Elaborazione...",
+			"deviceCheck": "Controllo Dispositivo"
 		}
 	},
 	"features": {
@@ -46,7 +47,7 @@
 			},
 			"security": {
 				"name": "Sicurezza di Livello Bancario",
-				"desc": "Tutti i dati sono elaborati in modo sicuro con token basati su sessione. Aderiamo a rigorosi standard di protezione dei dati per mantenere sicure le informazioni degli utenti."
+				"desc": "Sicurezza di livello bancario con fingerprinting avanzato del dispositivo e analisi della sessione per prevenire frodi."
 			},
 			"feedback": {
 				"name": "Feedback in Tempo Reale",
@@ -65,7 +66,7 @@
 			},
 			"secureSessions": {
 				"name": "Sessioni Sicure",
-				"desc": "Ogni verifica inizia con un token di sessione unico e limitato nel tempo. I dati sono crittografati in transito e a riposo."
+				"desc": "Ogni verifica inizia con un token di sessione unico. Include intelligence del dispositivo e fingerprinting del browser."
 			},
 			"mobile": {
 				"name": "Ottimizzato per Mobile",

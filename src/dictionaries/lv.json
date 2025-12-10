@@ -20,7 +20,8 @@
 			"documentScan": "Dokumenta skenēšana",
 			"verified": "Verificēts",
 			"faceMatch": "Sejas atbilstība",
-			"processing": "Apstrāde..."
+			"processing": "Apstrāde...",
+			"deviceCheck": "Ierīces Pārbaude"
 		}
 	},
 	"features": {
@@ -46,7 +47,7 @@
 			},
 			"security": {
 				"name": "Banku līmeņa drošība",
-				"desc": "Visi dati tiek apstrādāti droši ar sesiju marķieriem. Mēs ievērojam stingrus datu aizsardzības standartus, lai lietotāju informācija būtu drošībā."
+				"desc": "Bankas līmeņa drošība ar uzlabotu ierīces pirkstu nospiedumu un sesiju analīzi, lai novērstu krāpšanu."
 			},
 			"feedback": {
 				"name": "Reāllaika atsauksmes",
@@ -65,7 +66,7 @@
 			},
 			"secureSessions": {
 				"name": "Drošas sesijas",
-				"desc": "Katra verifikācija sākas ar unikālu, laika ierobežotu sesijas marķieri. Dati tiek šifrēti pārsūtīšanas un dīkstāves laikā."
+				"desc": "Katra verifikācija sākas ar unikālu sesijas marķieri. Ietver ierīces izlūkošanu un pārlūkprogrammas pirkstu nospiedumu."
 			},
 			"mobile": {
 				"name": "Optimizēts mobilajām ierīcēm",

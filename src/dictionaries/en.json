@@ -20,7 +20,8 @@
 			"documentScan": "Document Scan",
 			"verified": "Verified",
 			"faceMatch": "Face Match",
-			"processing": "Processing..."
+			"processing": "Processing...",
+			"deviceCheck": "Device Check"
 		}
 	},
 	"features": {
@@ -46,7 +47,7 @@
 			},
 			"security": {
 				"name": "Bank-Grade Security",
-				"desc": "All data is processed securely with session-based tokens. We adhere to strict data protection standards to keep user information safe."
+				"desc": "Bank-grade security with advanced device fingerprinting and session analysis to prevent spoofing and fraud."
 			},
 			"feedback": {
 				"name": "Real-Time Feedback",
@@ -65,7 +66,7 @@
 			},
 			"secureSessions": {
 				"name": "Secure Sessions",
-				"desc": "Every verification starts with a unique, time-limited session token. Data is encrypted in transit and at rest."
+				"desc": "Every verification starts with a unique session token. Includes device intelligence and browser fingerprinting."
 			},
 			"mobile": {
 				"name": "Mobile Optimized",

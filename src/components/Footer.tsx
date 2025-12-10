@@ -1,7 +1,9 @@
 import Link from "next/link"
 import { Github, Twitter, Linkedin } from "lucide-react"
 
-export default function Footer() {
+import { Dictionary } from "@/types/dictionary"
+
+export default function Footer({ dict }: { dict: Dictionary["footer"] }) {
 	return (
 		<footer className='bg-gray-900 border-t border-gray-800'>
 			<div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8'>
@@ -10,14 +12,11 @@ export default function Footer() {
 						<span className='text-2xl font-bold text-white'>
 							Impaya<span className='text-blue-500'>KYC</span>
 						</span>
-						<p className='mt-4 text-sm text-gray-400'>
-							Next-generation identity verification platform for modern businesses.
-							Secure, fast, and compliant.
-						</p>
+						<p className='mt-4 text-sm text-gray-400'>{dict.tagline}</p>
 					</div>
 					<div>
 						<h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
-							Solutions
+							{dict.solutions}
 						</h3>
 						<ul className='mt-4 space-y-4'>
 							<li>
@@ -25,7 +24,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Identity Verification
+									{dict.links.identity}
 								</Link>
 							</li>
 							<li>
@@ -33,7 +32,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									AML Screening
+									{dict.links.aml}
 								</Link>
 							</li>
 							<li>
@@ -41,14 +40,14 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Document OCR
+									{dict.links.ocr}
 								</Link>
 							</li>
 						</ul>
 					</div>
 					<div>
 						<h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
-							Support
+							{dict.support}
 						</h3>
 						<ul className='mt-4 space-y-4'>
 							<li>
@@ -56,7 +55,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Documentation
+									{dict.links.docs}
 								</Link>
 							</li>
 							<li>
@@ -64,7 +63,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									API Reference
+									{dict.links.api}
 								</Link>
 							</li>
 							<li>
@@ -72,14 +71,14 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									System Status
+									{dict.links.status}
 								</Link>
 							</li>
 						</ul>
 					</div>
 					<div>
 						<h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
-							Legal
+							{dict.legal}
 						</h3>
 						<ul className='mt-4 space-y-4'>
 							<li>
@@ -87,7 +86,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Privacy Policy
+									{dict.links.privacy}
 								</Link>
 							</li>
 							<li>
@@ -95,7 +94,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Terms of Service
+									{dict.links.terms}
 								</Link>
 							</li>
 							<li>
@@ -103,7 +102,7 @@ export default function Footer() {
 									href='#'
 									className='text-base text-gray-300 hover:text-blue-400 transition-colors'
 								>
-									Cookie Policy
+									{dict.links.cookie}
 								</Link>
 							</li>
 						</ul>
@@ -112,7 +111,7 @@ export default function Footer() {
 
 				<div className='pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4'>
 					<p className='text-base text-gray-400'>
-						&copy; {new Date().getFullYear()} Impaya KYC. All rights reserved.
+						&copy; {new Date().getFullYear()} {dict.rights}
 					</p>
 					<div className='flex space-x-6'>
 						<Link href='#' className='text-gray-400 hover:text-white transition-colors'>

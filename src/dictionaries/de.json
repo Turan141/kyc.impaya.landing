@@ -20,7 +20,8 @@
 			"documentScan": "Dokumentenscan",
 			"verified": "Verifiziert",
 			"faceMatch": "Gesichtserkennung",
-			"processing": "Verarbeitung..."
+			"processing": "Verarbeitung...",
+			"deviceCheck": "Geräteprüfung"
 		}
 	},
 	"features": {
@@ -46,7 +47,7 @@
 			},
 			"security": {
 				"name": "Sicherheit auf Bankenniveau",
-				"desc": "Alle Daten werden sicher mit sitzungsbasierten Token verarbeitet. Wir halten uns an strenge Datenschutzstandards, um Benutzerinformationen sicher zu halten."
+				"desc": "Sicherheit auf Bankenniveau mit fortschrittlichem Geräte-Fingerprinting und Sitzungsanalyse zur Betrugsprävention."
 			},
 			"feedback": {
 				"name": "Echtzeit-Feedback",
@@ -65,7 +66,7 @@
 			},
 			"secureSessions": {
 				"name": "Sichere Sitzungen",
-				"desc": "Jede Verifizierung beginnt mit einem eindeutigen, zeitlich begrenzten Sitzungstoken. Daten werden bei der Übertragung und im Ruhezustand verschlüsselt."
+				"desc": "Jede Verifizierung beginnt mit einem eindeutigen Sitzungstoken. Beinhaltet Geräteintelligenz und Browser-Fingerprinting."
 			},
 			"mobile": {
 				"name": "Für Mobilgeräte optimiert",
