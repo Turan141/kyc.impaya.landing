@@ -1,0 +1,16 @@
+name: Bump App Version
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  version-bump:
+    uses: Impaya/settings-and-wokflows/.github/workflows/reusable-version-bump.yml@main
+    # with:
+    # bump-command: "npm version"
+    # use-nvmrc: "1"
+    # main-branch: "dev"
+    secrets:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}

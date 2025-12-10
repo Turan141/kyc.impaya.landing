@@ -1,0 +1,50 @@
+name: Create PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: "Target branch (merge FROM)"
+        required: true
+        type: string
+      base_branch:
+        description: "Base branch (merge TO)"
+        required: true
+        default: "dev"
+        type: string
+      # run_e2e:
+      #   description: "Run E2E tests"
+      #   required: false
+      #   default: false
+      #   type: boolean
+      version_bump:
+        description: "Bump version after merge"
+        required: false
+        default: true
+        type: boolean
+      branch_check:
+        description: "Check branch freshness"
+        required: false
+        default: true
+        type: boolean
+      auto_merge:
+        description: "Enable auto-merge"
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  create-pr:
+    uses: Impaya/settings-and-wokflows/.github/workflows/reusable-create-pr.yml@main
+    with:
+      target_branch: ${{ inputs.target_branch }}
+      base_branch: ${{ inputs.base_branch }}
+      project_name: "KYC"
+      # run_e2e: ${{ inputs.run_e2e }}
+      run_e2e: false
+      version_bump: ${{ inputs.version_bump }}
+      branch_check: ${{ inputs.branch_check }}
+      auto_merge: ${{ inputs.auto_merge }}
+      use_nvmrc: "1"
+    secrets:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}

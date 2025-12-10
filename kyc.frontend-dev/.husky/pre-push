@@ -1,0 +1,1 @@
+node .husky/pre-push-ts-check.cjs && node .husky/pre-push-lint.cjs

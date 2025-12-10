@@ -1,0 +1,144 @@
+{
+	"navbar": {
+		"features": "Features",
+		"technology": "Technology",
+		"contact": "Contact",
+		"getStarted": "Get Started"
+	},
+	"hero": {
+		"newGeneration": "New Generation KYC",
+		"title": "Identity Verification",
+		"titleHighlight": "Reimagined with AI",
+		"description": "Seamlessly onboard users with bank-grade security. Our 3D Liveness Detection and Smart OCR technology ensure compliance in seconds, not days.",
+		"startVerification": "Start Verification",
+		"howItWorks": "How it Works",
+		"liveness": "3D Liveness",
+		"ocr": "Smart OCR",
+		"security": "Bank-grade Security",
+		"card": {
+			"livenessDetected": "Liveness Detected",
+			"documentScan": "Document Scan",
+			"verified": "Verified",
+			"faceMatch": "Face Match",
+			"processing": "Processing..."
+		}
+	},
+	"features": {
+		"capabilities": "Capabilities",
+		"title": "Advanced KYC Technology",
+		"description": "Our platform combines cutting-edge AI with robust compliance checks to deliver a seamless verification experience.",
+		"items": {
+			"liveness": {
+				"name": "AI-Powered Liveness Detection",
+				"desc": "Our advanced 3D FaceMesh technology ensures the user is physically present, preventing spoofing attacks with real-time motion analysis."
+			},
+			"ocr": {
+				"name": "Smart Document OCR",
+				"desc": "Instantly recognize and extract data from Passports, ID Cards, and Residence Permits. Our system automatically detects document boundaries and quality."
+			},
+			"address": {
+				"name": "Proof of Address Verification",
+				"desc": "Automated utility bill verification ensures compliance with residence requirements. Upload or capture documents directly."
+			},
+			"global": {
+				"name": "Global Coverage",
+				"desc": "Support for documents from multiple countries including Azerbaijan, Latvia, Ukraine, and more. Seamlessly verify users worldwide."
+			},
+			"security": {
+				"name": "Bank-Grade Security",
+				"desc": "All data is processed securely with session-based tokens. We adhere to strict data protection standards to keep user information safe."
+			},
+			"feedback": {
+				"name": "Real-Time Feedback",
+				"desc": "Users receive instant guidance during the process (e.g., \"Move Closer\", \"Hold Still\"), ensuring high success rates and a smooth experience."
+			}
+		}
+	},
+	"techSpecs": {
+		"technology": "Technology Stack",
+		"title": "Built for Speed and Security",
+		"description": "Our infrastructure is designed to handle high volumes of verifications with minimal latency, ensuring your users are verified in seconds, not days.",
+		"items": {
+			"tensorflow": {
+				"name": "TensorFlow.js",
+				"desc": "Client-side AI processing for immediate feedback and reduced server load. FaceMesh models run directly in the browser."
+			},
+			"secureSessions": {
+				"name": "Secure Sessions",
+				"desc": "Every verification starts with a unique, time-limited session token. Data is encrypted in transit and at rest."
+			},
+			"mobile": {
+				"name": "Mobile Optimized",
+				"desc": "Fully responsive design that works perfectly on mobile devices, utilizing native camera capabilities."
+			},
+			"instant": {
+				"name": "Instant Results",
+				"desc": "Get verification results via API callbacks immediately after the user completes the process."
+			},
+			"api": {
+				"name": "RESTful API",
+				"desc": "Easy to integrate REST API with comprehensive documentation and SDKs for major languages."
+			},
+			"developer": {
+				"name": "Developer Friendly",
+				"desc": "Built by developers for developers. Clean code, typed interfaces, and detailed error messages."
+			},
+			"retention": {
+				"name": "Data Retention",
+				"desc": "Configurable data retention policies to meet your specific compliance and privacy requirements."
+			},
+			"cloud": {
+				"name": "Cloud Native",
+				"desc": "Scalable infrastructure hosted on secure cloud providers with high availability and redundancy."
+			}
+		}
+	},
+	"registration": {
+		"success": {
+			"title": "Registration Started!",
+			"description": "Your secure session has been created successfully.",
+			"tokenLabel": "Session Token",
+			"note": "In a production environment, you would be automatically redirected to the verification flow.",
+			"button": "Start another registration"
+		},
+		"form": {
+			"title": "Ready to get started?",
+			"description": "Join thousands of businesses trusting our platform for their identity verification needs. Simple integration, powerful results.",
+			"list": [
+				"Instant API access",
+				"Sandbox environment included",
+				"24/7 Technical support",
+				"GDPR & CCPA compliant"
+			],
+			"createAccount": "Create your account",
+			"trial": "Start your free trial today.",
+			"emailLabel": "Work Email",
+			"emailPlaceholder": "you@company.com",
+			"terms": "I agree to the {terms} and {privacy}",
+			"termsLink": "Terms",
+			"privacyLink": "Privacy Policy",
+			"errorTerms": "You must accept the terms and conditions.",
+			"errorGeneric": "Something went wrong",
+			"buttonProcessing": "Processing...",
+			"buttonStart": "Get Started"
+		}
+	},
+	"footer": {
+		"tagline": "Next-generation identity verification platform for modern businesses. Secure, fast, and compliant.",
+		"solutions": "Solutions",
+		"support": "Support",
+		"legal": "Legal",
+		"rights": "Impaya KYC. All rights reserved.",
+		"links": {
+			"identity": "Identity Verification",
+			"aml": "AML Screening",
+			"ocr": "Document OCR",
+			"docs": "Documentation",
+			"api": "API Reference",
+			"status": "System Status",
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Service",
+			"cookie": "Cookie Policy"
+		}
+	}
+}
