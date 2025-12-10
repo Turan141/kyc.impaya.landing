@@ -22,13 +22,12 @@ export function middleware(request: NextRequest) {
 
 	// Redirect if there is no locale
 	const locale = getLocale(request)
-	request.nextUrl.pathname = `/${locale}${pathname}`
-	return NextResponse.redirect(request.nextUrl)
+	return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url))
 }
 
 export const config = {
 	matcher: [
 		// Skip all internal paths (_next)
-		"/((?!_next|api|favicon.ico|grid.svg|.*\\..*).*)"
+		"/((?!api|_next/static|_next/image|favicon.ico|grid.svg).*)",
 	]
 }
